@@ -15,7 +15,7 @@ struct S3RequestMiddleware: AWSRequestMiddleware {
             let query = request.url.query != nil ? "?\(request.url.query!)" : ""
             let domain: String
             if let host = request.url.host, host.contains("amazonaws.com") {
-                domain = "s3-\(request.region.rawValue).amazonaws.com"
+                domain = "s3.\(request.region.rawValue).amazonaws.com"
             } else {
                 let port = request.url.port == nil ? "" : ":\(request.url.port!)"
                 domain = request.url.host!+port
