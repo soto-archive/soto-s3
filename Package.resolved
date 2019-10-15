@@ -3,56 +3,65 @@
     "pins": [
       {
         "package": "AWSSDKSwiftCore",
-        "repositoryURL": "https://github.com/noppoMan/aws-sdk-swift-core.git",
+        "repositoryURL": "https://github.com/swift-aws/aws-sdk-swift-core.git",
         "state": {
           "branch": null,
-          "revision": "48298a7bec6c838553f314cb48c81f2a363e8253",
-          "version": "1.0.10"
-        }
-      },
-      {
-        "package": "CHTTPParser",
-        "repositoryURL": "https://github.com/Zewo/CHTTPParser.git",
-        "state": {
-          "branch": null,
-          "revision": "88306ab33bb316b2eedd39c90f4be8f4ebf65a11",
-          "version": "0.14.0"
-        }
-      },
-      {
-        "package": "CLibreSSL",
-        "repositoryURL": "https://github.com/vapor/clibressl.git",
-        "state": {
-          "branch": null,
-          "revision": "23ddb296981d17a8ee6c7418742a40cad5d2f9d0",
-          "version": "1.0.0"
+          "revision": "d0289a51705ae795adb068b96e68f0075b5b1cda",
+          "version": "3.3.0"
         }
       },
       {
         "package": "HypertextApplicationLanguage",
-        "repositoryURL": "https://github.com/noppoMan/HypertextApplicationLanguage.git",
+        "repositoryURL": "https://github.com/swift-aws/HypertextApplicationLanguage.git",
         "state": {
           "branch": null,
-          "revision": "e6216c13fd510e31e70e6f409936f1a656db1f33",
-          "version": "1.0.1"
+          "revision": "aa2c9141d491682f17b2310aed17b9adfc006256",
+          "version": "1.1.1"
         }
       },
       {
-        "package": "Prorsum",
-        "repositoryURL": "https://github.com/noppoMan/Prorsum.git",
+        "package": "INIParser",
+        "repositoryURL": "https://github.com/swift-aws/Perfect-INIParser.git",
         "state": {
           "branch": null,
-          "revision": "b278e88142a3b5a87feabc44b6522dabfcda8f99",
-          "version": "0.3.3"
+          "revision": "42de0efc7a01105e19b80d533d3d282a98277f6c",
+          "version": "3.0.3"
         }
       },
       {
-        "package": "ProrsumNet",
-        "repositoryURL": "https://github.com/noppoman/ProrsumNet.git",
+        "package": "swift-nio",
+        "repositoryURL": "https://github.com/apple/swift-nio.git",
         "state": {
           "branch": null,
-          "revision": "941e0c65df620467130e9eb2496a3c1275c1d307",
-          "version": "0.1.3"
+          "revision": "ba7970fe396e8198b84c6c1b44b38a1d4e2eb6bd",
+          "version": "1.14.1"
+        }
+      },
+      {
+        "package": "swift-nio-ssl",
+        "repositoryURL": "https://github.com/apple/swift-nio-ssl.git",
+        "state": {
+          "branch": null,
+          "revision": "0f3999f3e3c359cc74480c292644c3419e44a12f",
+          "version": "1.4.0"
+        }
+      },
+      {
+        "package": "swift-nio-ssl-support",
+        "repositoryURL": "https://github.com/apple/swift-nio-ssl-support.git",
+        "state": {
+          "branch": null,
+          "revision": "c02eec4e0e6d351cd092938cf44195a8e669f555",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "swift-nio-zlib-support",
+        "repositoryURL": "https://github.com/apple/swift-nio-zlib-support.git",
+        "state": {
+          "branch": null,
+          "revision": "37760e9a52030bb9011972c5213c3350fa9d41fd",
+          "version": "1.0.0"
         }
       }
     ]
