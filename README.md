@@ -16,7 +16,7 @@ import PackageDescription
 let package = Package(
     name: "MyAWSApp",
     dependencies: [
-        .package(url: "https://github.com/swift-aws/S3.git", .upToNextMajor(from: "3.4.0"))
+        .package(url: "https://github.com/swift-aws/S3.git", .upToNextMajor(from: "4.0.0"))
     ]
 )
 ```

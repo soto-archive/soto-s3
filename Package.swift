@@ -1,4 +1,4 @@
-// swift-tools-version:4.2
+// swift-tools-version:5.0
 
 import PackageDescription
 
@@ -8,7 +8,7 @@ let package = Package(
       .library(name: "S3", targets: ["S3"]),
   ],
   dependencies: [
-      .package(url: "https://github.com/swift-aws/aws-sdk-swift-core.git", .upToNextMinor(from: "3.4.0"))
+      .package(url: "https://github.com/swift-aws/aws-sdk-swift-core.git", .upToNextMinor(from: "4.0.0"))
   ],
   targets: [
     .target(name: "S3", dependencies: ["AWSSDKSwiftCore", "S3Middleware"]),
