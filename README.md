@@ -1,6 +1,6 @@
 # Soto for S3
 
-A Soto S3 type safe client for Swift (This is part of [Soto](https://github.com/soto-project/soto)). This repository is only updated infrequently. If you want a more up to date version please checkout the equivalent module in [Soto](https://github.com/soto-project/soto)
+A Soto client for S3. This repository is only updated infrequently. If you want a more up to date version please checkout the equivalent module in [Soto](https://github.com/soto-project/soto)
 
 ## Documentation
 
